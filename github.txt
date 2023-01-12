@@ -14,7 +14,7 @@ $ git remote -v
 $ git remote rm origin //기존 원격 저장소와의 연결 삭제
 $ git branch
 $ git config --global init.defaultBranch [브랜치 이름]
-$ git status // 상태확인 나는 취했다..
+$ git status // 상태확인 
 $ git rm --cached -r . //add한 파일 모두 취소
 $ git branch -m master main //브랜치 이름 바꾸기
 $ git commit //커밋 메시지 없이 커밋하기
