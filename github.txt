@@ -1,0 +1,20 @@
+//저장소 생성 및 연결
+$ git init //로컬 저장소 생성
+$ git remote add origin [원격저장소 주소]  //원격 저장소와 연결
+$ git branch -m master main
+
+//파일 업로드
+$ git pull origin main //로컬 저장소에서 원격 저장소로 올리기
+$ git add .
+$ git commit -m "commit message"
+$ git push origin main
+
+//추가적인 명령어
+$ git remote -v
+$ git remote rm origin //기존 원격 저장소와의 연결 삭제
+$ git branch
+$ git config --global init.defaultBranch [브랜치 이름]
+$ git status // 상태확인 나는 취했다..
+$ git rm --cached -r . //add한 파일 모두 취소
+$ git branch -m master main //브랜치 이름 바꾸기
+$ git commit //커밋 메시지 없이 커밋하기
